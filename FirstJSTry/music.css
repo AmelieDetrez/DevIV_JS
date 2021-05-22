@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(61, 60, 60);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#add{
+    border: solid;
+    border-color: rgb(104, 102, 102);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color:rgb(104, 102, 102) ;
+}
+#submit{
+    display: block;
+    margin-top: 2%;
+    margin-left:48%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+#soundeffect{
+    display: block;
+    color: rgb(255, 255, 255);
+}
+#showcase{
+    border: solid;
+    border-color: rgb(82, 80, 80);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    background-color:rgb(82, 80, 80) ;
+}
+input{
+    color: rgb(255, 255, 255);
+    background-color: rgb(189, 185, 185);
+    border-style: none;
+    margin: 1%;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    border-style: none;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 1%;
+}
