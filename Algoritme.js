@@ -23,6 +23,9 @@ var instrument = [{
 })
 console.log(instrument);
 
+
+
+
 function BubbleSort(instru) {
     const sortedInstru = Array.from(instru);
     let swap;
@@ -30,7 +33,7 @@ function BubbleSort(instru) {
       swap = false;
       for (let i = 1; i < sortedInstru.length; ++i) {
         if (sortedInstru[i - 1].price > sortedInstru[i].price) {
-          [sortedInstru[i].price, sortedInstru[i - 1].price] = [sortedInstru[i - 1].price, sortedInstru[i].price];
+          [sortedInstru[i], sortedInstru[i - 1]] = [sortedInstru[i - 1], sortedInstru[i]];
           swap = true;
         }
       }
