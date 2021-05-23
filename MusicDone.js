@@ -1,6 +1,3 @@
-let Type = ["Brass", "String", "Woodwind", "Percussion"];
-let Quality = ["Broken", "Bad", "Good", "Perfect"];
-let Sounds = ["Electric", "Acoustic"];
 
 gibHtml();
 
