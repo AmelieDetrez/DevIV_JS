@@ -55,7 +55,7 @@ function BubbleSort(instru) {
     name: "Flute",
     sound: "Acoustic",
     quality: "broken",
-    price: 50
+    price: 60
  },{
     name: "Drum",
     sound: "Electric",
