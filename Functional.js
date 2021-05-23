@@ -48,7 +48,8 @@ function logInstruments(array){
 }
 
 const testing = logInstruments(Instrument);
-const changeStrategy = changeBehaviour(1)("Electric");
+const changeStrategyGuitar = changeBehaviour(1)("Electric");
+const changeStrategyViolin = changeBehaviour(0)("Acoustic");
 const logchange = logInstruments(changeStrategy);
 
 //alle functies behalve changeBehaviour(lijn 26) zijn puur: Er wordt telkens maar 1 variabele meegegeven en binnenin de functie wordt de meegegeven variabel bewerkt maar geen andere side effects.
